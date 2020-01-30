@@ -29,3 +29,5 @@ class Artist
     @@song_count
   end
 end
+
+expect(adele.songs).to eq([hello])
